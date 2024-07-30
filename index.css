@@ -1,0 +1,24 @@
+*,
+*::after,
+*::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+}
+
+button {
+  animation: wave 1s linear;
+}
+
+@keyframes wave {
+  0% {
+    box-shadow: 0 0 4px 2px black;
+  }
+  100% {
+    box-shadow: 0 0 6px 2px black;
+  }
+}
